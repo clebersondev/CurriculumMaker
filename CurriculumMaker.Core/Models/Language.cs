@@ -14,7 +14,6 @@ public sealed class Language
         Proficiency = proficiency;
     }
 
-    public int Id { get; set; }
     [Required] public string LanguageName { get; set; } = string.Empty;
     [Required] public string Proficiency { get; set; } = string.Empty;
 }
