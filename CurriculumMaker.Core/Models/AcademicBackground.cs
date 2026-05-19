@@ -19,7 +19,6 @@ public sealed class AcademicBackground
         Description = description;
     }
 
-    public int Id { get; set; }
     [Required] public string Institution { get; set; } = string.Empty;
     [Required] public string Degree { get; set; } = string.Empty;
     [Required] public string GraduationYear { get; set; } = string.Empty;
