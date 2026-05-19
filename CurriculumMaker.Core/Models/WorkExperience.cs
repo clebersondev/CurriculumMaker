@@ -21,7 +21,6 @@ public sealed class WorkExperience
     }
 
 
-    public int Id { get; set; }
     [Required] public string Company { get; set; } = string.Empty;
     [Required] public string Position { get; set; } = string.Empty;
     [Required] public string StartDate { get; set; } = string.Empty;
